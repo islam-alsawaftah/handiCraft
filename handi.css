@@ -1,0 +1,228 @@
+body
+{
+  margin: 0;
+}
+
+.navbar{
+  height: 80px;
+  background-color: #333
+}
+.navbar button{
+  text-shadow: none;
+      line-height: 1.2;
+      display: inline-block;
+      padding: 10px 16px;
+      margin: 0 10px 0 0;
+      position: relative;
+      border-radius: 4px;
+      border: 3px solid transparent;
+      background: #444857;
+      color: white;
+      cursor: pointer;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-decoration: none !important;
+      text-align: center;
+      font-weight: normal;
+      position: absolute;
+      top: 18px;
+      right: 10px;
+}
+#si{
+  text-shadow: none;
+      line-height: 1.2;
+      display: inline-block;
+      padding: 10px 16px;
+      margin: 0 10px 0 0;
+      position: relative;
+      border-radius: 4px;
+      border: 3px solid transparent;
+      background: #2fb45a;
+      color: white;
+      cursor: pointer;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-decoration: none !important;
+      text-align: center;
+      font-weight: normal;
+      position: absolute;
+      top: 18px;
+      right: 120px;
+
+}
+.img{
+  width:auto;
+  text-align:center;}
+img{
+  max-width:100%;
+  height:auto;
+}
+ ul{
+  list-style: none;
+  float: left;
+  overflow: hidden;
+
+}
+ ul li{
+  float: left;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+cursor: pointer;font-family: 'Hammersmith One'}
+
+  ul li:hover{
+    text-decoration: underline;
+  }
+.slogan{
+  position:absolute;
+  top: 200px;
+  left: 60px;
+  color: #fff;
+  font-size: 75px;
+  line-height: 1.7;
+  font-family: 'Carter One'
+}
+button{
+padding: 14px 60px;
+border: 2px solid #fff;
+color: #fff;
+background-color: #333;
+cursor: pointer;
+font-family: 'Hammersmith One'
+}
+.our-story{ width:100% ;
+height: 50%}
+
+.our-story h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Carter One'
+}
+.our-story p{
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.7;
+  font-family: 'Hammersmith One'
+}
+
+
+.heading{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Carter One';
+padding: 20px}
+
+
+.gallery-image {
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #333;
+
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition:  0.3s ease;
+}
+
+.img-box:hover img {
+  transform: scale(1.1);
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.our-client h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Carter One'
+}
+.i{
+  margin-left: 80px;
+}
+.images{
+  width:200px;
+  text-align:center;
+float: left;
+display: inline;
+padding: 20px
+}
+.images p{
+  font-family: 'Hammersmith One'
+
+}
+.contact-us {
+  padding-top: 10px;
+  height: 470px;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+position: absolute;
+top: 2500px
+ }
+.contact-us form{
+text-align: center;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  height: 150px;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-us p{
+  font-family: 'Hammersmith One';
+  font-size: 30px
+}
